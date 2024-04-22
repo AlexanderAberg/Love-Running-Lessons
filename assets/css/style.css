@@ -67,9 +67,6 @@ footer{
         padding-right:1rem;
     }
 
-    
-
-
 #menu{
     text-size:110%;
     letter-spacing: 4px;
@@ -95,6 +92,14 @@ main{
     /*Push main content down to accomadate larger header */
     margin-top:79px;
 }
+}
+
+/*Media query: laptops and larger (992px and up) */
+@media screen and (min-width:992px) {
+    #menu a:hover{
+        border-bottom:1px solid #3a3a3a;
+    }  
+
 }
 
 #menu > li {
