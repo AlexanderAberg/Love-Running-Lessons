@@ -165,7 +165,7 @@ margin-bottom: 20px;
 #times {
     background: url("../images/dublin-city.webp") no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -195,6 +195,18 @@ margin-bottom: 20px;
 
 #photos {
     line-height: 0;
+}
+
+#signup {
+    background: url("..images/signup-image.webp") no repeat center/cover;
+    display: flex;
+    background-position: 75%;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#signup h2 {
+    color: #fafafa;
 }
 
 /* Footer */
